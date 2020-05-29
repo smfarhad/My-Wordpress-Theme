@@ -1,0 +1,131 @@
+
+body{font-family: 'Caveat', cursive;}
+ 
+h1,h2, h3, h4, h5, h6, h6 {font-family: 'Amatic SC', cursive;}
+a{
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+div.top-menu-bar{
+    background: #f8f9fa!important;
+    margin-bottom: 20px;
+}
+ul#menu-top-menu a{
+    color: #8B8989;   
+    font-size: 12px;
+}
+ul#menu-top-menu, #primary-menu{
+    list-style: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0;
+}
+ul#menu-top-menu > li{
+    display: inline-block;
+    padding: 10px;
+}
+ul.sub-menu{
+    display: none; 
+    position: absolute;
+    background: #000000;
+    margin: 0;
+    padding: 10px 5px;
+    z-index: 99;
+ }
+ul#menu-top-menu > li:hover ul.sub-menu{
+    display: block;
+}
+ul.sub-menu li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0px 15px 0px 5px;
+}
+.sfcm.sfsi_wicon{
+width: 70%;
+}
+.sfsi_wicons{
+    padding-top: 10px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.home-section{
+    margin-top: 20px;
+}
+
+
+.featured-Image{
+    margin: 10px 0;
+}
+.post-title, .post-title:hover{
+    font-size: 30px;
+    text-decoration:none;
+    color: darkslateblue;
+}
+.post-meta{
+    font-size: 12px;
+}
+.read-more{
+    margin-left: 10px;
+}
+#primary-menu{
+margin: 0px;
+padding: 0px;
+}
+#primary-menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px;
+}
+#primary-menu a{
+    color: black;
+    text-decoration: none;
+}
+h1.single-post-title{
+    margin: 30px 0;
+}
+.single-post-thumb{
+    margin: 20px 0;
+}
+.post-excert{
+    margin: 5px 5px 5px 0px  ;
+    padding: 10px 20px 10px 0px;
+}
+section#sample-id ul{
+    padding: 0;
+}
+section#sample-id ul li{
+    list-style: none;
+}
+section#sample-id ul li img{
+    float: left;
+    border: 1px solid #8B8989;
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+section#sample-id ul li h4{
+    padding-left: 10px;
+}
+footer#colophon{
+    background: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+ul#menu-top-menu-1 li{
+    display: inline-block;
+    padding: 5px 25px;
+}
+ul#menu-top-menu-1 a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sfsiplus_footerLnk{
+    display: none;
+}
